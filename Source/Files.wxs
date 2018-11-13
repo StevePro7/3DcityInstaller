@@ -80,8 +80,8 @@
 			<Component Id="MyComponent" Guid="{26ED00FF-B689-49E2-A162-AB406A24A9E9}" DiskId="1">
 
 				<!--<File Id="LicenseFile" Name="license.rtf" Source="$(sys.SOURCEFILEDIR)/../Documents/license.rtf" />-->
-				<File Id="WindowsGameExe" Name="3DCity.exe.config" Source="$(sys.SOURCEFILEDIR)/../Content/3DCity.exe.config" />
-				<File Id="WindowsGameLib" Name="log4net.dll" Source="$(sys.SOURCEFILEDIR)/../Content/3DCity.Library.dll" />
+				<File Id="WindowsGameCfg" Name="3DCity.exe.config" Source="$(sys.SOURCEFILEDIR)/../Content/3DCity.exe.config" />
+				<File Id="WindowsGameLib" Name="3DCity.Library.dll" Source="$(sys.SOURCEFILEDIR)/../Content/3DCity.Library.dll" />
 				<File Id="log4netdll" Name="log4net.dll" Source="$(sys.SOURCEFILEDIR)/../Content/log4net.dll" />
 				<File Id="NinjectDll" Name="Ninject.dll" Source="$(sys.SOURCEFILEDIR)/../Content/Ninject.dll" />
 
