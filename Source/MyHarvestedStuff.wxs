@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="INSTALLDIR">
+            <Directory Id="dir36665998438621F6BB41818960BE2CEC" Name="Content" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="MyComponentGroupId">
+            <Component Id="cmpE6A7B1ED959FFEE249E81319336817F6" Directory="INSTALLDIR" Guid="{A7237CF9-0B73-4109-873D-0127430B8ED5}">
+                <File Id="fil8E9510EC82241872BE8A170979773E45" KeyPath="yes" Source="SourceDir\3DCity.exe" />
+            </Component>
+            <Component Id="cmp3954294F631275984005FE1AD9367EC8" Directory="INSTALLDIR" Guid="{D25521A6-4CD4-49FF-816F-6CA5AFDDD242}">
+                <File Id="fil5B10EF0780CB8C46A4740442F7B263E6" KeyPath="yes" Source="SourceDir\3DCity.exe.config" />
+            </Component>
+            <Component Id="cmp71F70876C133F9BB5A8E66F010A1AA9F" Directory="INSTALLDIR" Guid="{72DF52B8-2ED9-493D-B46B-2D37CE09C81D}">
+                <File Id="filBDE1356BAA2C4AF0B197AF2057A6BA56" KeyPath="yes" Source="SourceDir\3DCity.Library.dll" />
+            </Component>
+            <Component Id="cmp13D6573EA8CF3F99F44BAE837E2771F0" Directory="INSTALLDIR" Guid="{A246B99D-02A1-487C-9D57-BA44C2AE3D21}">
+                <File Id="fil2991F53D601CDF7142D0A9E1B42E116E" KeyPath="yes" Source="SourceDir\log4net.dll" />
+            </Component>
+            <Component Id="cmp6C6E3A4782B29A777EAFACCECDE25A75" Directory="INSTALLDIR" Guid="{9439195C-7E31-4233-961C-B95A11C5386D}">
+                <File Id="fil61E2178807DDF4CB67E717F57A0B45E1" KeyPath="yes" Source="SourceDir\Ninject.dll" />
+            </Component>
+            <Component Id="cmpCC1F91C3F47B0E2FF4E36B5B6EBB76E2" Directory="dir396A23459A007F525246D0A803ACD747" Guid="{6A3070D5-F783-421F-9119-671DB055CA4F}">
+                <File Id="fil5B4D3AA1758ABDD467F66343D05E2BD9" KeyPath="yes" Source="SourceDir\Content\Data\Config\GlobalConfig.xml" />
+            </Component>
+            <Component Id="cmp0D10AC22416EA53D5404ACBF97CFB440" Directory="dir396A23459A007F525246D0A803ACD747" Guid="{C82B55A6-699C-45AB-85AA-E92429987CE9}">
+                <File Id="fil922DD000638901D96E5C27EBF949786C" KeyPath="yes" Source="SourceDir\Content\Data\Config\GlobalConfigPROD.xml" />
+            </Component>
+            <Component Id="cmp8FF3B88752087334C8D407DDD3306A24" Directory="dir396A23459A007F525246D0A803ACD747" Guid="{97B7E3DD-5479-4FCE-8838-BF66693E44BE}">
+                <File Id="fil3C0768226FA148169D6FF45B6463ED5F" KeyPath="yes" Source="SourceDir\Content\Data\Config\GlobalConfigTEST.xml" />
+            </Component>
+            <Component Id="cmpB7F897F1ACA764B4DC0C82AF32105B1E" Directory="dir396A23459A007F525246D0A803ACD747" Guid="{D43DD82E-F042-41C3-A728-DCF6397509D7}">
+                <File Id="filD9041C40C21D5A5C145B5553A0D35AA5" KeyPath="yes" Source="SourceDir\Content\Data\Config\PlatformConfigDesktop.xml" />
+            </Component>
+            <Component Id="cmpFC1B30AA478B1097C770506397B3D406" Directory="dir396A23459A007F525246D0A803ACD747" Guid="{BBE31D14-C535-4E3B-A5AB-B491537A6DA2}">
+                <File Id="filE991733D6F2D9CDA4B180246C15C8794" KeyPath="yes" Source="SourceDir\Content\Data\Config\PlatformConfigMobiles.xml" />
+            </Component>
+            <Component Id="cmp7004ECA4E576B8546F75F3B283FF50F4" Directory="dir216A5621958E0508AE03ED3495A9B707" Guid="{B61716E5-1266-4608-80C9-7B49BA8AEE0C}">
+                <File Id="fil064387FA84AD68724803A5CFDA43EE93" KeyPath="yes" Source="SourceDir\Content\Data\Events\00.txt" />
+            </Component>
+            <Component Id="cmp13D6D8D3D47A9AB025E31DC1695F6753" Directory="dir216A5621958E0508AE03ED3495A9B707" Guid="{CE512EBB-E650-4E48-9736-9F3F77978D75}">
+                <File Id="filAA0516FD8F012F61FBEBA53431DEE2AE" KeyPath="yes" Source="SourceDir\Content\Data\Events\01.txt" />
+            </Component>
+            <Component Id="cmp43DFAA2D196AE64DE29899CCCCAA56A8" Directory="dir216A5621958E0508AE03ED3495A9B707" Guid="{95F16711-5478-473B-BCD9-2AB73B08B53A}">
+                <File Id="fil0805024BC8D812329569A64F5AD465F6" KeyPath="yes" Source="SourceDir\Content\Data\Events\02.txt" />
+            </Component>
+            <Component Id="cmp2CEFD7CC0CBF30D0C909267EE1188225" Directory="dirF947434A1E2CCB511C5CFB4C9BF83DC4" Guid="{908B6890-5740-4CF9-9626-135ED3091D22}">
+                <File Id="fil1B845863388F49238D00A8C183D95591" KeyPath="yes" Source="SourceDir\Content\Data\Levels\LevelNames.txt" />
+            </Component>
+            <Component Id="cmpA4F530B76B3E22074A7543433411187C" Directory="dir64DB0D2A561E83DC7C420FAAD0301B2B" Guid="{919992C7-8269-441C-8601-D986CF0816D1}">
+                <File Id="filD395737DF85F2EEF779FB0A3FA69A6CF" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Easy\01-Easy.xml" />
+            </Component>
+            <Component Id="cmp89CF733A766698EC750C22D46A74B312" Directory="dir64DB0D2A561E83DC7C420FAAD0301B2B" Guid="{217892FA-C2C3-4C81-9655-920A26C488E7}">
+                <File Id="fil61F8535480BA9130581517A9372DE839" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Easy\02-Easy.xml" />
+            </Component>
+            <Component Id="cmp3F752A78E215D10C465BD98AFA41E252" Directory="dir64DB0D2A561E83DC7C420FAAD0301B2B" Guid="{74CB5F70-179D-4D88-93AF-44A16E94387E}">
+                <File Id="fil4431A7161A38FD0C2EC61537E85C3418" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Easy\03-Easy.xml" />
+            </Component>
+            <Component Id="cmp2B6942BB93AD6DA247A92588456E3F25" Directory="dir64DB0D2A561E83DC7C420FAAD0301B2B" Guid="{767EAEDE-1CCF-4A09-8A60-21F13646C642}">
+                <File Id="fil7449D221714274EC48E5D1B91BB8CD24" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Easy\04-Easy.xml" />
+            </Component>
+            <Component Id="cmpA3432B6288B81C32BD4A7560FF51D167" Directory="dir64DB0D2A561E83DC7C420FAAD0301B2B" Guid="{60727396-5CB7-4323-BD6D-6D83F7C7FBD4}">
+                <File Id="filA1942652B09080D40FC606310785C6D0" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Easy\05-Easy.xml" />
+            </Component>
+            <Component Id="cmpA4FD256DB96FC4C7494FCA4EF952D52B" Directory="dir64DB0D2A561E83DC7C420FAAD0301B2B" Guid="{B7EB9C44-6CAA-461E-879C-1AE88A70C79B}">
+                <File Id="fil8176437B443E26FE62F303B5352AA8DC" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Easy\06-Easy.xml" />
+            </Component>
+            <Component Id="cmpC42DC5E5EEC52D4DEE1B1E537F5FEDD1" Directory="dir64DB0D2A561E83DC7C420FAAD0301B2B" Guid="{25794D77-9942-4F8C-9100-F1BFFEF404C3}">
+                <File Id="fil5C0EC4848567EF2957D090B94BA1B3B7" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Easy\07-Easy.xml" />
+            </Component>
+            <Component Id="cmpA2B0B3C02962B2BE8E30BD34C93ABE6D" Directory="dir64DB0D2A561E83DC7C420FAAD0301B2B" Guid="{A2B9DF68-9A2F-474E-BAAC-FCA961D5C35A}">
+                <File Id="filFCB99C3B2C0D8D4D8344F4F5D3D1C7FC" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Easy\08-Easy.xml" />
+            </Component>
+            <Component Id="cmpCEFC2AE1ECD940DB244EF9901358B718" Directory="dir64DB0D2A561E83DC7C420FAAD0301B2B" Guid="{5C9E7CDD-8DA1-424C-8ED8-4B037D4CA50A}">
+                <File Id="filD859C6D6FDCABAE5FE23FB93763CD66A" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Easy\09-Easy.xml" />
+            </Component>
+            <Component Id="cmp95AA1C8AB1D3547D7A95289696E60828" Directory="dir64DB0D2A561E83DC7C420FAAD0301B2B" Guid="{666348DC-E3BB-4718-BD79-97EC82EFA288}">
+                <File Id="filFD9844E3FFDD487759351D150C932CF6" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Easy\10-Easy.xml" />
+            </Component>
+            <Component Id="cmp941DF11D10CAC23657ED3D57052E0324" Directory="dir64DB0D2A561E83DC7C420FAAD0301B2B" Guid="{C8650A4E-7CA6-43C7-B011-7B57FABC2B86}">
+                <File Id="fil0FE58E2070BE88C254C184C7AE943F46" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Easy\11-Easy.xml" />
+            </Component>
+            <Component Id="cmpEF6D9EACB175995A21E85DA4F1B70D9A" Directory="dir64DB0D2A561E83DC7C420FAAD0301B2B" Guid="{A81CF5BD-AD48-4760-9A6E-7088E94A8D3B}">
+                <File Id="fil2F02E2802EE0AED660B93661D53F7B0D" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Easy\12-Easy.xml" />
+            </Component>
+            <Component Id="cmpEB41C30BECAA1A8CC63BCF4A93324F06" Directory="dir64DB0D2A561E83DC7C420FAAD0301B2B" Guid="{5860205B-B6B8-44D8-817F-94679045C46E}">
+                <File Id="filA48F1CC8CC119222B54145019213B02C" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Easy\13-Easy.xml" />
+            </Component>
+            <Component Id="cmp60C1C313F1418E6326FF9259008EA6CA" Directory="dir64DB0D2A561E83DC7C420FAAD0301B2B" Guid="{CBFC8494-DAD8-41A4-8461-C431C34F175C}">
+                <File Id="fil99D6F951707C2F5B7CBE959D7B835CE7" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Easy\14-Easy.xml" />
+            </Component>
+            <Component Id="cmp3A648E60150024166C5A33A683A5F824" Directory="dir64DB0D2A561E83DC7C420FAAD0301B2B" Guid="{5254AE13-1419-4318-B03A-F97F5FD456A5}">
+                <File Id="filFF71D0ECB6883BBDF8F2D2FD50740490" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Easy\15-Easy.xml" />
+            </Component>
+            <Component Id="cmp4ED9B9E140E9B7B79ACB3093C40DC2E2" Directory="dir64DB0D2A561E83DC7C420FAAD0301B2B" Guid="{605C15DC-2EEE-4122-8445-47AB6AF51787}">
+                <File Id="fil6DFC00D1A8FE4A3DF5A53F705E799908" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Easy\16-Easy.xml" />
+            </Component>
+            <Component Id="cmp2B3FD1B1766CD07C25798C0E7FC8FC66" Directory="dir64DB0D2A561E83DC7C420FAAD0301B2B" Guid="{30A41EB1-0469-4662-B4D2-687BABA53136}">
+                <File Id="fil64E671F04901EACC40269C88B9636D09" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Easy\17-Easy.xml" />
+            </Component>
+            <Component Id="cmp61064F4381A40D0B22E5CEAA832A4452" Directory="dir64DB0D2A561E83DC7C420FAAD0301B2B" Guid="{C94207A1-2F2A-498D-9440-3BCF475AB991}">
+                <File Id="filE2853E71A0BE1EE4C7EB664743074503" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Easy\18-Easy.xml" />
+            </Component>
+            <Component Id="cmp74B900E05F922330B00E66F222A91A1B" Directory="dir51C6605161327BFEB162E4D845F4C95E" Guid="{57068DC9-43AC-4C57-B722-503AB23C9FE8}">
+                <File Id="fil9F7DA78EDD51E1E9A35DB1CB0B420583" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Hard\01-Hard.xml" />
+            </Component>
+            <Component Id="cmp127166DAC5CB0561CFC8EFE874D3AAC7" Directory="dir51C6605161327BFEB162E4D845F4C95E" Guid="{1E4482C5-848C-4C5D-AFD7-382FB82E7597}">
+                <File Id="fil3CB3E207B04E1C3E2255F789C8C89360" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Hard\02-Hard.xml" />
+            </Component>
+            <Component Id="cmp4B7522BCEC6FBA111CDD08AD98ADF10E" Directory="dir51C6605161327BFEB162E4D845F4C95E" Guid="{D1A05728-F10C-4175-8DFE-E97F2BF9DF2F}">
+                <File Id="fil50FF7821FFFD4FD637BE38717A0E665E" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Hard\03-Hard.xml" />
+            </Component>
+            <Component Id="cmp7F00DEFB67157F8D65D15F0EACC0CAD4" Directory="dir51C6605161327BFEB162E4D845F4C95E" Guid="{A32CB9DA-A3C8-4926-B346-F7F8B6962D92}">
+                <File Id="fil08BD4579D62C134BD6C72D3C4EEC668A" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Hard\04-Hard.xml" />
+            </Component>
+            <Component Id="cmp22781C307CC26D66D35D9B90E01D672F" Directory="dir51C6605161327BFEB162E4D845F4C95E" Guid="{459A0607-C1DD-4578-B160-7E20B2729CDD}">
+                <File Id="fil10834B5FBCAAB0726DAC78E162C4DF86" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Hard\05-Hard.xml" />
+            </Component>
+            <Component Id="cmp2DFE07A9C16F686441158E3D056E87FE" Directory="dir51C6605161327BFEB162E4D845F4C95E" Guid="{F1DFA0BD-3B2E-4F4C-A60F-A26B852AB989}">
+                <File Id="fil8EEFFE87C0593A6BB87B6D1D8548687A" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Hard\06-Hard.xml" />
+            </Component>
+            <Component Id="cmp01BAAF01086B636356D8AB4D378BFE44" Directory="dir51C6605161327BFEB162E4D845F4C95E" Guid="{4572C8C0-135E-4942-92EF-B2803A68EDDD}">
+                <File Id="fil962F14A1B40E583E84BC136E4A59C05E" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Hard\07-Hard.xml" />
+            </Component>
+            <Component Id="cmpCFC294B7035B03A60711139E2B3AA6AF" Directory="dir51C6605161327BFEB162E4D845F4C95E" Guid="{E3AABF81-FD3A-44B4-BD49-963FD1F58E19}">
+                <File Id="filB52DD8F7D93D198CB491C42D2C3FAC42" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Hard\08-Hard.xml" />
+            </Component>
+            <Component Id="cmpEE710551320A11B103FC86DDD9967442" Directory="dir51C6605161327BFEB162E4D845F4C95E" Guid="{D86646D4-C824-4845-9A71-3662B2261598}">
+                <File Id="filD35A8AA56F37114F0ACAEED328441239" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Hard\09-Hard.xml" />
+            </Component>
+            <Component Id="cmp86D2B5357E7E923A8F22FC964133C692" Directory="dir51C6605161327BFEB162E4D845F4C95E" Guid="{70D68A4D-3272-4D5A-AA70-6B768B97B1DD}">
+                <File Id="fil645737605573BE58B9C24F082BE12A82" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Hard\10-Hard.xml" />
+            </Component>
+            <Component Id="cmp5789E0BA7E2FDB06280092C932D61BC8" Directory="dir51C6605161327BFEB162E4D845F4C95E" Guid="{414E2291-C5BB-488F-917C-09EC1ECEC2C0}">
+                <File Id="fil931E223DEB6755018C1F44040D984BDD" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Hard\11-Hard.xml" />
+            </Component>
+            <Component Id="cmpE959F67457A49EDE533BE19F8E96AEB3" Directory="dir51C6605161327BFEB162E4D845F4C95E" Guid="{75BF22D0-6EBE-49CA-98B6-A75AA0EDAFF9}">
+                <File Id="filA68045100526DBE9B89FC2191F6BEDB1" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Hard\12-Hard.xml" />
+            </Component>
+            <Component Id="cmpB8427F445769B69DC7C61225DA137323" Directory="dir51C6605161327BFEB162E4D845F4C95E" Guid="{13FA856E-21A9-4827-86CF-6EFD1A7714F9}">
+                <File Id="fil9E42B36B6CAE57F192B8920E535D6A7E" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Hard\13-Hard.xml" />
+            </Component>
+            <Component Id="cmp2062A84B38D5DA92D18BF7C162F363CE" Directory="dir51C6605161327BFEB162E4D845F4C95E" Guid="{140B8152-D1F5-451E-9662-E6B9020C36C2}">
+                <File Id="filBED1D7FE943459D539B503143C55D43D" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Hard\14-Hard.xml" />
+            </Component>
+            <Component Id="cmp1AE39628F2C1E6CB432E7CFC39535F8F" Directory="dir51C6605161327BFEB162E4D845F4C95E" Guid="{D3237FA9-6D60-4287-8B64-D567E18F74E6}">
+                <File Id="fil65B561212F0CCC887ECDC8994AED8488" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Hard\15-Hard.xml" />
+            </Component>
+            <Component Id="cmp2F1C9C30EC4393EE06042510A77881EA" Directory="dir51C6605161327BFEB162E4D845F4C95E" Guid="{D7AF3F28-09AF-4E11-B0B0-4EDD84E2546E}">
+                <File Id="filB028B3E2979AD7AB5759FA99411AAD04" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Hard\16-Hard.xml" />
+            </Component>
+            <Component Id="cmp6D98A20191585E5AB38F229AC66E9E75" Directory="dir51C6605161327BFEB162E4D845F4C95E" Guid="{1CB40A02-EE48-4AE6-8B34-59C0DF4E03FC}">
+                <File Id="fil14E9EA4AAF378740EC1037657D273565" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Hard\17-Hard.xml" />
+            </Component>
+            <Component Id="cmpBDAF938CCD88C45E89784E688DBA86B9" Directory="dir51C6605161327BFEB162E4D845F4C95E" Guid="{FDCC5BCC-9F18-42BB-BB83-6A763214534D}">
+                <File Id="fil9C53720C172049C5BF05E202148ADBAC" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Hard\18-Hard.xml" />
+            </Component>
+            <Component Id="cmp82FFC83FCA394A0B374BE9F76B065341" Directory="dir83FF362E6D0EDE87C20EAD51DDD782E2" Guid="{20D49E44-F020-4875-849F-4795E3386D3D}">
+                <File Id="fil44BC8E39D06CA69FF302875DB17458F8" KeyPath="yes" Source="SourceDir\Content\Data\Levels\Test\99-Test.xml" />
+            </Component>
+            <Component Id="cmp69154E136FA0C4516AA5B1C7633ECC9B" Directory="dirB023F4A695F33501A91608C23BFAD12F" Guid="{0ED8408E-F764-4B6A-8F09-30210C7724D4}">
+                <File Id="filE1ABB7425611AE43AB0B5496025E022A" KeyPath="yes" Source="SourceDir\Content\Data\Maths\DelayWaves.txt" />
+            </Component>
+            <Component Id="cmpF0A4B5E6E7880DA9A49B5B1FA13A49DB" Directory="dirBD53B2F0439BB67BC24231E999272B25" Guid="{617DDEC7-C7E5-4FAE-BAA5-5AA4BA718675}">
+                <File Id="fil8D7148586104CA1CEA8ABD1FF0E7E85C" KeyPath="yes" Source="SourceDir\Content\Data\Sprite\Enemys.txt" />
+            </Component>
+            <Component Id="cmp693E2759E929F9E014533558EBB338EA" Directory="dirBD53B2F0439BB67BC24231E999272B25" Guid="{6C7695C7-5BEB-4E96-9C4C-D34F2B1F6ED0}">
+                <File Id="fil7C2914A4FCC35FCDA86848448764B96D" KeyPath="yes" Source="SourceDir\Content\Data\Sprite\Target.txt" />
+            </Component>
+            <Component Id="cmp4A018DCCB93C0699AAE4D6FF56B1C8F7" Directory="dirCD274983C0FADED50137095F5AB31CAF" Guid="{0EF5F5D9-7FD8-4D3B-871D-B78DDE0AE49B}">
+                <File Id="filAEAD5023BFB091D6852710D88BA87A06" KeyPath="yes" Source="SourceDir\Content\Data\Texts\BeatScreen.txt" />
+            </Component>
+            <Component Id="cmp7D09A78879D1F4C773C04314C2AA29F0" Directory="dirCD274983C0FADED50137095F5AB31CAF" Guid="{5489B18C-1E13-43EC-8042-9D812E7509F2}">
+                <File Id="fil7CB7E5D699D541AE66EC34DB05F4511F" KeyPath="yes" Source="SourceDir\Content\Data\Texts\ContScreen.txt" />
+            </Component>
+            <Component Id="cmp70614FE0232EAEB67F496237A1EBEF42" Directory="dirCD274983C0FADED50137095F5AB31CAF" Guid="{4642857B-6B4E-4F2F-A5B1-3F760ADA23E2}">
+                <File Id="fil5AD4C23A4C0267CED2681D2E5AF36AB9" KeyPath="yes" Source="SourceDir\Content\Data\Texts\DeadScreen.txt" />
+            </Component>
+            <Component Id="cmp3DB58BA995A50E31F52860E9C2A649A1" Directory="dirCD274983C0FADED50137095F5AB31CAF" Guid="{652095DD-CC3D-41E1-A28C-64ABAA8BBD37}">
+                <File Id="fil9058752C8BE05F81252E998F3851F3E0" KeyPath="yes" Source="SourceDir\Content\Data\Texts\DiffScreen.txt" />
+            </Component>
+            <Component Id="cmp755152B13B3DE9B54666AC8842501FDE" Directory="dirCD274983C0FADED50137095F5AB31CAF" Guid="{721F78C5-1193-445B-8E1D-094115D5F3A9}">
+                <File Id="fil4F7CA598FED1CCC573ABD0E187143477" KeyPath="yes" Source="SourceDir\Content\Data\Texts\FinishScreen.txt" />
+            </Component>
+            <Component Id="cmp4495712A2474A131A741EB35AC567225" Directory="dirCD274983C0FADED50137095F5AB31CAF" Guid="{C133A345-D887-43CB-A5EF-010F512640E5}">
+                <File Id="fil19171D19326AAE1BD7344464579F68E0" KeyPath="yes" Source="SourceDir\Content\Data\Texts\LevelScreen.txt" />
+            </Component>
+            <Component Id="cmp792191279193978A5E129D576DE12F60" Directory="dirCD274983C0FADED50137095F5AB31CAF" Guid="{1FFF55B8-2EFF-49B6-8145-AD5D79B3E550}">
+                <File Id="filB8A1737637AE8EF96B70584B2F019401" KeyPath="yes" Source="SourceDir\Content\Data\Texts\LoadScreen.txt" />
+            </Component>
+            <Component Id="cmp419C92895B896124BC1B38ABDEEB42B8" Directory="dirCD274983C0FADED50137095F5AB31CAF" Guid="{21CE701E-79C3-4D7D-9664-CF69AD8AB3B1}">
+                <File Id="fil35256BDDB3B4023A57AE971A3E005EE6" KeyPath="yes" Source="SourceDir\Content\Data\Texts\OverScreen.txt" />
+            </Component>
+            <Component Id="cmp0F0CE391BCE6F0C0243449D44A1E88AA" Directory="dirCD274983C0FADED50137095F5AB31CAF" Guid="{97054D9B-9DED-4A25-A75C-442A17F6D4A4}">
+                <File Id="fil705194A64234ADB7CFCBB221594BF541" KeyPath="yes" Source="SourceDir\Content\Data\Texts\QuitScreen.txt" />
+            </Component>
+            <Component Id="cmp0F67008E8D8003EB13E3B05043EAC94A" Directory="dirCD274983C0FADED50137095F5AB31CAF" Guid="{262C6EE4-46FB-45A6-9E9E-FD544468D0CB}">
+                <File Id="fil53B77129EE98166947F020A5806B388A" KeyPath="yes" Source="SourceDir\Content\Data\Texts\ReadyScreen.txt" />
+            </Component>
+            <Component Id="cmp4051DA6A1F7A31C30E41281CC38B49BE" Directory="dirCD274983C0FADED50137095F5AB31CAF" Guid="{1EC6A658-9D60-4BAD-96CB-4C89A4FEE91D}">
+                <File Id="fil32057E564F7CFEBFF72337F49CFF28A5" KeyPath="yes" Source="SourceDir\Content\Data\Texts\TestScreen.txt" />
+            </Component>
+            <Component Id="cmp3C5A423BFC05367BACF8DA7A20CE8C72" Directory="dirC94B360692D876915BFC8202F11CBEBB" Guid="{D4C125DC-46D8-49DC-A4CB-6EFD7BB79039}">
+                <File Id="fil1C5BC3952A52FAE7D2A78DB48D6FC771" KeyPath="yes" Source="SourceDir\Content\Fonts\Emulogic.xnb" />
+            </Component>
+            <Component Id="cmpA8362C3FB3116801BD22B48F7E802FF7" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{B97FAE22-F48F-4C39-B9D7-F3A7E4F470D9}">
+                <File Id="fil79687E0F24BC844C4E358F7ADD366BD4" KeyPath="yes" Source="SourceDir\Content\Sound\Aaargh.xnb" />
+            </Component>
+            <Component Id="cmp304FC03B81CEDE5BEC917FA9C6753602" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{31E18487-5A8C-410C-8909-928678C518CD}">
+                <File Id="fil2EC9B7FF3D3CEEEEB6494D22C4BB30B3" KeyPath="yes" Source="SourceDir\Content\Sound\Bonus.xnb" />
+            </Component>
+            <Component Id="cmpB5B0F4C105219F96AA9B6019B32A0FEF" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{1F9A7FE7-BEFE-4719-B58B-B3C786B5D4A3}">
+                <File Id="fil9F6D72970DA28D72A0EDDA37815FBBE1" KeyPath="yes" Source="SourceDir\Content\Sound\Boss.xnb" />
+            </Component>
+            <Component Id="cmp621E277428307A5EECCAF54605042D59" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{8571F09A-C33B-4F64-9AE6-FAD81CE9DF87}">
+                <File Id="fil5018E3981202B36D296CCFCE76798CB9" KeyPath="yes" Source="SourceDir\Content\Sound\BossMusic1.wma" />
+            </Component>
+            <Component Id="cmp7C984C62E0E6C671E439A637151AF1F6" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{9E3E2E90-132A-4CB4-ADA9-82743EF5B07D}">
+                <File Id="fil03E8AB6B6C2ED8A80894F2CEF0C5B3EB" KeyPath="yes" Source="SourceDir\Content\Sound\BossMusic1.xnb" />
+            </Component>
+            <Component Id="cmp6DFA66138E6AD2C92301315C653409B5" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{989D23E7-D6BB-4393-B1BE-B382B10BFA4D}">
+                <File Id="fil5E3739FAF53A6427991886251998CF35" KeyPath="yes" Source="SourceDir\Content\Sound\BossMusic2.wma" />
+            </Component>
+            <Component Id="cmp8F72A8A2E42960D4FF2B74B74EEFE0DC" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{901FBF35-652F-4FF5-A06E-E6EF27D48F5C}">
+                <File Id="fil2CE5121A9E5FE1B8029C7D8E6D1614E8" KeyPath="yes" Source="SourceDir\Content\Sound\BossMusic2.xnb" />
+            </Component>
+            <Component Id="cmp70AB3A5A5D1B736583030552A7F038D3" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{C59B9EB2-CBC9-445C-A02B-7804F58B399C}">
+                <File Id="filC595A1FF1460BBD59B783FC9D904C564" KeyPath="yes" Source="SourceDir\Content\Sound\Cheat.xnb" />
+            </Component>
+            <Component Id="cmp8E1B8F574193E5BCADFF348AFF597BEE" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{1C907223-C3CB-4F10-8B81-6DA35E0D6F91}">
+                <File Id="fil1DA9A498400FCCCADFD936AFBB2096D2" KeyPath="yes" Source="SourceDir\Content\Sound\ContMusic.wma" />
+            </Component>
+            <Component Id="cmpD93DC8818EE6AEF0C50299D1BFB748F0" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{868D2C0D-B9B0-4901-896A-59B881C727E5}">
+                <File Id="filE2CFB9AB8301D08608B8565200F66BD6" KeyPath="yes" Source="SourceDir\Content\Sound\ContMusic.xnb" />
+            </Component>
+            <Component Id="cmp640C9491BBBD0D37C2556876716D0E4D" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{0C1566A6-63C5-4274-96D3-211FF21C27F4}">
+                <File Id="filBCDB978A9E46889B01CAEF6145302E27" KeyPath="yes" Source="SourceDir\Content\Sound\CoolMusic.wma" />
+            </Component>
+            <Component Id="cmp694DD413A04C714CF8748BA5F4F5794E" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{DA9888B2-6DDA-46DC-BD74-040B49706585}">
+                <File Id="fil3363F03FA2A426D0477D93C6ACFD6933" KeyPath="yes" Source="SourceDir\Content\Sound\CoolMusic.xnb" />
+            </Component>
+            <Component Id="cmp2466B25F70BF6AC9087850893B25E6C8" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{E3023329-B740-4A73-8B0D-3DE48629493D}">
+                <File Id="fil94D45756E8D701D99FC3F8D84A3650CC" KeyPath="yes" Source="SourceDir\Content\Sound\Extra.xnb" />
+            </Component>
+            <Component Id="cmp5A5B1ECDFE7A002E13EE8CA7E0BC3915" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{AB80DAFA-C734-41BF-A58D-322DA6BCE96E}">
+                <File Id="fil5BC4FEDAFFC34AB8680A0CE59320BDDE" KeyPath="yes" Source="SourceDir\Content\Sound\Finish.xnb" />
+            </Component>
+            <Component Id="cmpCF9C319E430896F3609B4CF5AB055526" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{391DC93F-A04D-4B9F-B82B-173989CF3B48}">
+                <File Id="filF8C1E79CADF69917752788ED411F2C1E" KeyPath="yes" Source="SourceDir\Content\Sound\Fire1.xnb" />
+            </Component>
+            <Component Id="cmpB0D5EFD04527C1CDBA4AD68B5EF5CC24" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{036E7279-1791-45FC-A3E0-7034874FAA91}">
+                <File Id="filD39F02048ED9CBCF5EE0A4252C900CEC" KeyPath="yes" Source="SourceDir\Content\Sound\Fire2.xnb" />
+            </Component>
+            <Component Id="cmpE6F275A2329A0AD613D9C6410C50936F" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{4A4FC681-3E13-4F17-8BBC-B25FF14AC318}">
+                <File Id="fil78A70DF4FC1941293E94C62BCCAAF991" KeyPath="yes" Source="SourceDir\Content\Sound\Fire3.xnb" />
+            </Component>
+            <Component Id="cmpD9B77717BF7A6287EF961B81ECEA0A7D" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{9CC83EFB-89A4-47F6-95DB-2E34FC31D3A6}">
+                <File Id="fil4FF8B20FA1140166511426CDECFEE80D" KeyPath="yes" Source="SourceDir\Content\Sound\GameMusic1.wma" />
+            </Component>
+            <Component Id="cmp1CB85BAF20ED8336F9895AE0A0FB531E" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{0527F583-7202-412D-A2CA-5E5D26EF793D}">
+                <File Id="fil84FEDC37708D69AB0D831949849AF17A" KeyPath="yes" Source="SourceDir\Content\Sound\GameMusic1.xnb" />
+            </Component>
+            <Component Id="cmp0488745AC2259DC8A91F3E25C2967795" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{BBD0F2B1-16DD-41BA-B29D-9F3C755FB542}">
+                <File Id="filCBA81B0CE28070EED6B8E0A33893D409" KeyPath="yes" Source="SourceDir\Content\Sound\GameMusic2.wma" />
+            </Component>
+            <Component Id="cmp9257FAF9856DBC66979AF383C515E66B" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{E3415109-040B-46C4-903D-1155D85738BC}">
+                <File Id="fil565377948063E05BFB74292ACC84AC33" KeyPath="yes" Source="SourceDir\Content\Sound\GameMusic2.xnb" />
+            </Component>
+            <Component Id="cmp43DA818E08244657E85B29448684D0AB" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{C02987F4-D229-4F29-8B3B-CBF2BC86B500}">
+                <File Id="fil7C9ACB4F17593FD0BB5B7BB36E2F7A6F" KeyPath="yes" Source="SourceDir\Content\Sound\GameMusic3.wma" />
+            </Component>
+            <Component Id="cmp59717830E832BB76F65B3570621D0255" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{93D50F94-56ED-4CD3-9DCF-B336D5C39A99}">
+                <File Id="fil017C21D5C21E596F62B1B701862A7939" KeyPath="yes" Source="SourceDir\Content\Sound\GameMusic3.xnb" />
+            </Component>
+            <Component Id="cmp767A5171312C6B49C9E7AFEC3C266BB9" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{E6F64347-15D8-4924-9F4A-DA1C2F13DEEF}">
+                <File Id="fil5249CD8EF0718533DF6EBA286E0778C4" KeyPath="yes" Source="SourceDir\Content\Sound\GameOver.wma" />
+            </Component>
+            <Component Id="cmp455DE4E5F4D4C4BF7F63D411DF9ACA9B" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{A3A886FD-A7E7-49E7-9146-E8E3368AA1DC}">
+                <File Id="filCC46B2EE7061D481659AC48823241CAE" KeyPath="yes" Source="SourceDir\Content\Sound\GameOver.xnb" />
+            </Component>
+            <Component Id="cmp9C36C4256D59E4683C67498B8F78F219" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{C2F1AA2F-46C9-4A85-A195-8A7B853CED76}">
+                <File Id="filC394EC113A563663D6717A09BEED179B" KeyPath="yes" Source="SourceDir\Content\Sound\GameTitle.wma" />
+            </Component>
+            <Component Id="cmp98A106C0D32A2E551CFE8260DEB3189F" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{D2685566-804B-4299-89A1-9197E6D72C41}">
+                <File Id="fil5EE9751B7A04A5F7F7123317F6587AF3" KeyPath="yes" Source="SourceDir\Content\Sound\GameTitle.xnb" />
+            </Component>
+            <Component Id="cmp37CF1F3420490ED99D31E0B470D26146" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{6FEA77E7-5D3F-4CDA-B6B8-E5046232D678}">
+                <File Id="filB4EBD743D9830D61B06AF2E50C116773" KeyPath="yes" Source="SourceDir\Content\Sound\Over.xnb" />
+            </Component>
+            <Component Id="cmpE591B36A41B7291B20226BAA111C6A64" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{3D6335E4-8529-410D-A0D9-60AECE7E454A}">
+                <File Id="fil52B853A5B7C9CAA0516D780FB518B74E" KeyPath="yes" Source="SourceDir\Content\Sound\Ready.xnb" />
+            </Component>
+            <Component Id="cmpFAD967EB51FC077E341E2CFFAC45142A" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{52ABA018-DAA2-441D-84B5-AD0CB83D08B0}">
+                <File Id="filF771FE2F099D001B23E8BBEBD262F8EE" KeyPath="yes" Source="SourceDir\Content\Sound\Right.xnb" />
+            </Component>
+            <Component Id="cmpF266FB19A1573A8B9E37F0357CE44468" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{ED13E1D8-5870-47F8-857D-BD5EB822BD85}">
+                <File Id="fil884AC9232A531F30F670E6D9050734CC" KeyPath="yes" Source="SourceDir\Content\Sound\Ship.xnb" />
+            </Component>
+            <Component Id="cmp98D3C4AA7D3DECAA9F6BF37FD7BAB0A9" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{2C3DA0C2-50AA-45E5-8CD3-DD63698CD276}">
+                <File Id="fil0414646A3B6BD09691E5A88EC3C06A0E" KeyPath="yes" Source="SourceDir\Content\Sound\Title.wma" />
+            </Component>
+            <Component Id="cmp8816427B10363BB36A4889AC5A7DF09F" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{8C25B09C-0789-4A01-9BC3-C0E0377E2646}">
+                <File Id="fil8E41437D035697446658A5ECC0328357" KeyPath="yes" Source="SourceDir\Content\Sound\Title.xnb" />
+            </Component>
+            <Component Id="cmpA8F164C7213190F303E59021EAD20CA7" Directory="dirD45F583F017543535D877A5C3A595579" Guid="{EBC544B3-6E24-47F2-B3EE-72B492631FC6}">
+                <File Id="fil5CF5F34377019EA4F0638AAC52A3E590" KeyPath="yes" Source="SourceDir\Content\Sound\Wrong.xnb" />
+            </Component>
+            <Component Id="cmp433B6F9E17E0986234A392ADD9E92F17" Directory="dirA9DC573C8DDFA9B3B5BAC157714A4451" Guid="{592F91FF-974A-4C8C-B4CE-E98799B2137A}">
+                <File Id="fil8B5992D566CC9E54DD9665D69DD6C8E6" KeyPath="yes" Source="SourceDir\Content\Textures\Splash.xnb" />
+            </Component>
+            <Component Id="cmpAFDD32379F3F3D12615DD875F9E7CAB6" Directory="dirA9DC573C8DDFA9B3B5BAC157714A4451" Guid="{60CF3AA2-4CF9-43C8-BEF1-EDE36E5334BC}">
+                <File Id="fil515B245809CC94B3EE644B97D60F2C75" KeyPath="yes" Source="SourceDir\Content\Textures\SplashBlank.xnb" />
+            </Component>
+            <Component Id="cmpD8C1000F0896EB3159F12D2D6CB236F4" Directory="dirA9DC573C8DDFA9B3B5BAC157714A4451" Guid="{633E2C07-A5D3-4EF4-B723-31BE43B69680}">
+                <File Id="fil731292EF7FA8B63C9E57809FB72C5AF4" KeyPath="yes" Source="SourceDir\Content\Textures\spritesheet01-1024.xnb" />
+            </Component>
+            <Component Id="cmp71216351F714BA79E92DAAEA072175F5" Directory="dirA9DC573C8DDFA9B3B5BAC157714A4451" Guid="{C9F1CD24-04AA-4535-B2AA-DD029B85A0CD}">
+                <File Id="filED12C188404841655B7D727DDA34CB9A" KeyPath="yes" Source="SourceDir\Content\Textures\spritesheet02-1024.xnb" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE290F330A92A8C3F9E468EE7A7961561">
+            <Directory Id="dir216A5621958E0508AE03ED3495A9B707" Name="Events" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE290F330A92A8C3F9E468EE7A7961561">
+            <Directory Id="dir396A23459A007F525246D0A803ACD747" Name="Config" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF947434A1E2CCB511C5CFB4C9BF83DC4">
+            <Directory Id="dir51C6605161327BFEB162E4D845F4C95E" Name="Hard" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF947434A1E2CCB511C5CFB4C9BF83DC4">
+            <Directory Id="dir64DB0D2A561E83DC7C420FAAD0301B2B" Name="Easy" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF947434A1E2CCB511C5CFB4C9BF83DC4">
+            <Directory Id="dir83FF362E6D0EDE87C20EAD51DDD782E2" Name="Test" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir36665998438621F6BB41818960BE2CEC">
+            <Directory Id="dirA9DC573C8DDFA9B3B5BAC157714A4451" Name="Textures" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE290F330A92A8C3F9E468EE7A7961561">
+            <Directory Id="dirB023F4A695F33501A91608C23BFAD12F" Name="Maths" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE290F330A92A8C3F9E468EE7A7961561">
+            <Directory Id="dirBD53B2F0439BB67BC24231E999272B25" Name="Sprite" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir36665998438621F6BB41818960BE2CEC">
+            <Directory Id="dirC94B360692D876915BFC8202F11CBEBB" Name="Fonts" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE290F330A92A8C3F9E468EE7A7961561">
+            <Directory Id="dirCD274983C0FADED50137095F5AB31CAF" Name="Texts" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir36665998438621F6BB41818960BE2CEC">
+            <Directory Id="dirD45F583F017543535D877A5C3A595579" Name="Sound" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir36665998438621F6BB41818960BE2CEC">
+            <Directory Id="dirE290F330A92A8C3F9E468EE7A7961561" Name="Data" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE290F330A92A8C3F9E468EE7A7961561">
+            <Directory Id="dirF947434A1E2CCB511C5CFB4C9BF83DC4" Name="Levels" />
+        </DirectoryRef>
+    </Fragment>
+</Wix>
