@@ -41,6 +41,7 @@
     <Compile Include="Source\Dialogs\WrongOperatingSystemDialog.wxs" />
     <Compile Include="Source\EmbeddedPrerequisites.wxs" />
     <Compile Include="Source\Files.wxs" />
+    <Compile Include="Source\MyHarvestedStuff.wxs" />
     <Compile Include="Source\NuclexSetupDetector.wxs" />
     <Compile Include="Source\Setup.wxs" />
     <Compile Include="Source\UserInterface.wxs" />
